@@ -1,0 +1,16 @@
+
+obj/
+obj/Debug/net5.0/ref/e-shop.dll
+obj/Debug/net5.0/e-shop.pdb
+obj/Debug/net5.0/e-shop.dll
+obj/Debug/net5.0/e-shop.csproj.FileListAbsolute.txt
+obj/Debug/net5.0/e-shop.csproj.CoreCompileInputs.cache
+obj/Debug/net5.0/e-shop.csproj.AssemblyReference.cache
+bin/
+bin/Debug/net5.0/ref/e-shop.dll
+bin/Debug/net5.0/e-shop.pdb
+bin/Debug/net5.0/e-shop.dll
+bin/Debug/net5.0/appsettings.json
+.vs/e-shop/v16/.suo
+.vs/e-shop/DesignTimeBuild/.dtbcache.v2
+.vs/e-shop/v16/.suo

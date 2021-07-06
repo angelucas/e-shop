@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace e_shop.Models
 {
-    public class Producto
+    public class Produto
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
