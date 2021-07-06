@@ -46,3 +46,6 @@ obj/Debug/net5.0/e-shop.csproj.CoreCompileInputs.cache
 obj/Debug/net5.0/e-shop.dll
 obj/Debug/net5.0/e-shop.pdb
 obj/Debug/net5.0/ref/e-shop.dll
+.vs/e-shop.API/v16/.suo
+.vs/e-shop.API/config/applicationhost.config
+.vs/e-shop.API/DesignTimeBuild/.dtbcache.v2
