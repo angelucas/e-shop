@@ -1,5 +1,5 @@
 <h1 align="center">.NET Web API</h1>
-<h2 align="center">CRUD of products</h3>
+<h2 align="center">CRUD of products</h2>
 
 
 <h3 align="center">Languages and Tools:</h3>
