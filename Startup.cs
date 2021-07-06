@@ -29,7 +29,7 @@ namespace e_shop
             {
                 c.SwaggerDoc("v1", new OpenApiInfo 
                 {
-                    Title = "e_shop",
+                    Title = "e-Shop",
                     Version = "v1" 
                 });
             });

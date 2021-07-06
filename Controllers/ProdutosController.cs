@@ -44,8 +44,9 @@ namespace e_shop.Controllers
 
         // PUT api/Produtos/5
         [HttpPut("{id}")]
-        public void Put([FromBody] Produto produto)
+        public void Put(int id, [FromBody] Produto produto)
         {
+            produto.ProdutoId = id;
             _CRUDContext.Produtos.Update(produto);
             _CRUDContext.SaveChanges();
         }
