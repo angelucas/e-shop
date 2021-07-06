@@ -1,5 +1,5 @@
-<h1 align="center">e-Shop .NET Web API</h1>
-<h3 align="center">Products CRUD</h3>
+<h1 align="center">.NET Web API</h1>
+<h3 align="center">CRUD of products</h3>
 
 
 <h3 align="left">Languages and Tools:</h3>
