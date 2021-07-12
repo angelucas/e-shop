@@ -1,4 +1,4 @@
-﻿using e_shop.Models;
+﻿using e_shop.API.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace e_shop.Context

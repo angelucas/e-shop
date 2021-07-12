@@ -1,5 +1,5 @@
 ﻿using e_shop.Context;
-using e_shop.Models;
+using e_shop.API.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 using System.Linq;
