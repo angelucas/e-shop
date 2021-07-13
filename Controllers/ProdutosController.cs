@@ -3,6 +3,7 @@ using e_shop.API.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 using System.Linq;
+using System;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -47,8 +48,16 @@ namespace e_shop.Controllers
         public void Put(int id, [FromBody] Produto produto)
         {
             produto.ProdutoId = id;
-            _CRUDContext.Produtos.Update(produto);
-            _CRUDContext.SaveChanges();
+            try 
+            {
+                _CRUDContext.Produtos.Update(produto);
+                _CRUDContext.SaveChanges();
+            }
+            catch (Exception ex)
+            {
+                throw;
+            }
+            
         }
 
         // DELETE api/<ProdutosController>/5
